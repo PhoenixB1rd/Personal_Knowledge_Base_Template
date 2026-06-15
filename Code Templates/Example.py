@@ -1,28 +1,20 @@
 import argparse
-import json
-import requests
-import time
 
 
-def login(api_url, email=None, password=None):
+
+def query(api_url):
     
-
-    return resp.json()["jwt"]["access"]
-
-
-def query(api_url, jwt_token, api_token, query_type, output_file, query_param_list):
-    
-    
+    return
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Query cloud account")
+    parser = argparse.ArgumentParser(description="Query something")
     parser.add_argument("--api-url", help="endpoint to connect to", default="<deafault_url>")
 
     args = parser.parse_args()
 
    
-    query(args.api_url, None, args.api_token, args.query_type, args.output_json_file, args.query_params)
+    query(args.api_url)
 
 
 if __name__ == "__main__":
