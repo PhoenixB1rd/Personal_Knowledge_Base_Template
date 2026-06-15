@@ -42,6 +42,50 @@ No
 
 ## This is a resource for you and to help you in your career. Use this template to create something for yourself to use, organize it to how you like. :) 
 
----
 
 # To Get Started
+
+### 1. Download the file structure and examples
+
+1. Download the Knowledge base template 
+2. Rename the folder to your chosen knowledge base name
+
+Next is the MdWiki part to make the markdown files readable in a web browser
+
+### 2. MdWiki installation
+
+1. Download the .zip file from the latest release on the [Download page](https://dynalon.github.io/mdwiki/#!download.md), which will direct you to github and then you click on the latest .zip file.
+2. Unpack the .zip file
+3. Copy the mdwiki.html file to the top level directory of the Knowledge base folder
+4. Change the name of the mdwiki.html file to index.html (this will then automatically load the index.md file that you have created for your knowledge base homepage)
+5. Lastly, adde a navigation file or any other simple feature highlighted on the mdwiki quickstart page [Here](https://dynalon.github.io/mdwiki/#!quickstart.md) 
+
+Next is creating a simple python server to serve up the website hosted locally!
+
+### 3. Simple python server for self hosting
+
+1. In a terminal, navigate to the Knowledge base folder and execute a simple python server
+```python
+python3 -m http.server --bind 127.0.0.1  8080
+```
+2. Open up a browser and travel to localhost:8080 to view the knowledge base!
+
+### 4. Lastly make the knowledge base your own
+
+- With a code or text editor, edit and all the files to the knowledge base and adding references to those files in the index.md file and thats it!
+- The webiste rendering can be customized and added to. For example a navigation bar can be customized with drop down menus, Change the name of the branding and more. Check out Mwiki for more information on how to do that. 
+- The knowledge base template is a guideline to get you started, feel free to change the directory structure or templates as you see fit. *HOWEVER* Never host the server to the public internet using the simple server above. It is not a secure server at all. For more about that [here](https://docs.python.org/3/library/http.server.html#security-considerations) is the man page for the server talking about the security flaws.
+
+## Notes
+
+Mwiki is used to render the index.md file into something a server can read. By adding the mwiki html file to the high level folder, which is renamed to index.html, a simple server can now read and render the index.md file. Allowing the knowledge base to come more alive and be a searchable reference. Would also allow it to be hosted on a small server on a local network, that is not accessible via the internet.
+
+# Websites and blog post references
+
+https://dynalon.github.io/mdwiki/#!index.md 
+
+https://docs.python.org/3/library/http.server.html#security-considerations
+
+https://dev.to/adam_b/a-personal-git-repo-as-a-knowledge-base-wiki-j51
+
+https://docs.python.org/3/library/http.server.html# 
