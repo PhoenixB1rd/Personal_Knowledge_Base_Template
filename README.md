@@ -82,10 +82,11 @@ Mwiki is used to render the index.md file into something a server can read. By a
 
 # Websites and blog post references
 
+This blog post is what got me started on creating this Knowledge base template:
+https://dev.to/adam_b/a-personal-git-repo-as-a-knowledge-base-wiki-j51
+
 https://dynalon.github.io/mdwiki/#!index.md 
 
 https://docs.python.org/3/library/http.server.html#security-considerations
-
-https://dev.to/adam_b/a-personal-git-repo-as-a-knowledge-base-wiki-j51
 
 https://docs.python.org/3/library/http.server.html# 
